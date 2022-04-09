@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34B07F1280206A40075F0A8 /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34B07F0280206A40075F0A8 /* Tutor.xcassets */; };
 		B354680F27D682E700DA3CCB /* TutorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354680E27D682E700DA3CCB /* TutorsApp.swift */; };
 		B354681127D682E700DA3CCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354681027D682E700DA3CCB /* ContentView.swift */; };
 		B354681327D682E800DA3CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B354681227D682E800DA3CCB /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		B354682027D682E800DA3CCB /* TutorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354681F27D682E800DA3CCB /* TutorsTests.swift */; };
 		B354682A27D682E800DA3CCB /* TutorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354682927D682E800DA3CCB /* TutorsUITests.swift */; };
 		B354682C27D682E800DA3CCB /* TutorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354682B27D682E800DA3CCB /* TutorsUITestsLaunchTests.swift */; };
+		B354684727D69C8A00DA3CCB /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354684627D69C8A00DA3CCB /* Tutor.swift */; };
+		B354684827D69C8A00DA3CCB /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354684627D69C8A00DA3CCB /* Tutor.swift */; };
+		B354684927D69C8A00DA3CCB /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354684627D69C8A00DA3CCB /* Tutor.swift */; };
+		B3617B8F27D91EBD00368487 /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3617B8E27D91EBD00368487 /* TutorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B34B07F0280206A40075F0A8 /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
 		B354680B27D682E700DA3CCB /* Tutors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B354680E27D682E700DA3CCB /* TutorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsApp.swift; sourceTree = "<group>"; };
-		B354681027D682E700DA3CCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B354681027D682E700DA3CCB /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 3; usesTabs = 0; wrapsLines = 1; };
 		B354681227D682E800DA3CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B354681527D682E800DA3CCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B354681B27D682E800DA3CCB /* TutorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,8 @@
 		B354682527D682E800DA3CCB /* TutorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B354682927D682E800DA3CCB /* TutorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsUITests.swift; sourceTree = "<group>"; };
 		B354682B27D682E800DA3CCB /* TutorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B354684627D69C8A00DA3CCB /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		B3617B8E27D91EBD00368487 /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		B354680D27D682E700DA3CCB /* Tutors */ = {
 			isa = PBXGroup;
 			children = (
+				B34B07F0280206A40075F0A8 /* Tutor.xcassets */,
+				B354684627D69C8A00DA3CCB /* Tutor.swift */,
 				B354680E27D682E700DA3CCB /* TutorsApp.swift */,
 				B354681027D682E700DA3CCB /* ContentView.swift */,
+				B3617B8E27D91EBD00368487 /* TutorDetail.swift */,
 				B354681227D682E800DA3CCB /* Assets.xcassets */,
 				B354681427D682E800DA3CCB /* Preview Content */,
 			);
@@ -233,6 +244,7 @@
 			files = (
 				B354681627D682E800DA3CCB /* Preview Assets.xcassets in Resources */,
 				B354681327D682E800DA3CCB /* Assets.xcassets in Resources */,
+				B34B07F1280206A40075F0A8 /* Tutor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B354681127D682E700DA3CCB /* ContentView.swift in Sources */,
+				B3617B8F27D91EBD00368487 /* TutorDetail.swift in Sources */,
+				B354684727D69C8A00DA3CCB /* Tutor.swift in Sources */,
 				B354680F27D682E700DA3CCB /* TutorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B354684827D69C8A00DA3CCB /* Tutor.swift in Sources */,
 				B354682027D682E800DA3CCB /* TutorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B354682A27D682E800DA3CCB /* TutorsUITests.swift in Sources */,
+				B354684927D69C8A00DA3CCB /* Tutor.swift in Sources */,
 				B354682C27D682E800DA3CCB /* TutorsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
