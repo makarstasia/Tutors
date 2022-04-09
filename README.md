@@ -7,9 +7,9 @@ makarshinaa1@gmail.com
 ---
 ## Main menu
 
-<img width="282" alt="Charles Robert" src="https://user-images.githubusercontent.com/68540629/162590281-f6f37fc2-4334-4d58-b1bd-4b3b9e30b534.png">
+<img width="324" alt="image" src="https://user-images.githubusercontent.com/68540629/162590611-d9f80b17-5a78-4f1f-8220-98c3856e4115.png">
 
 
 ## Detailed information about teachers 
 
-<img width="293" alt="Stephen William Hawking" src="https://user-images.githubusercontent.com/68540629/162590287-1accd727-f816-4848-a7af-16ead93979b1.png">
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/68540629/162590623-a0c40ade-1699-4bb9-8975-75d3c05dcf51.png">
